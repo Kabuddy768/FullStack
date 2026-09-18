@@ -81,6 +81,13 @@ export default function Menu() {
         <ListItemText primary="Create Clubs" />
       </ListItemButton>
       
+      <ListItemButton component={Link} to="/greet">
+        <ListItemIcon>
+          <AddBoxIcon />
+        </ListItemIcon>
+        <ListItemText primary="Greet" />
+      </ListItemButton>
+      
     </List>
     </>
   );

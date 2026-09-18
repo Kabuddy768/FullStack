@@ -6,6 +6,7 @@ import Create from './components/Create'
 import Edit from './components/Edit'
 import Delete from './components/Delete'
 import Navbar from './components/navbar/navbar'
+import Greet from './components/Greet.jsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/create' element={<Create/>}/>
         <Route path='/edit/:id' element={<Edit/>}/>
         <Route path='/delete/:id' element={<Delete/>}/>
+        <Route path='/greet' element={<Greet/>}/>
       </Routes>
     }
     />
